@@ -101,3 +101,20 @@ body.dark-mode ::-webkit-scrollbar-track {
   font-weight: 700;
   letter-spacing: 0.5px;
 }
+
+.navbar actions{
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+
+}
+
+.datetime-display {
+  font-size: 13px;
+  opacity: 0.9;;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 6px 14px;
+  border-radius: 20px;
+}
+

@@ -1,0 +1,19 @@
+  /* RESET & BASE  */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f2f5;
+    transition: background 0.3s, color 0.3s;
+    min-height: 100vh;
+  }
+
+  /* DARK MODE */
+  body.dark-mode{
+    background: #1a1a2e;
+    color: #eee;
+  }

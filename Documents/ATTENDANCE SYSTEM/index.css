@@ -13,7 +13,50 @@
   }
 
   /* DARK MODE */
+
   body.dark-mode{
     background: #1a1a2e;
     color: #eee;
   }
+
+  body.dark-mode .container {
+    background: #0f3460;
+  }
+
+  body.dark-mode .navbar {
+    background: #0f3460;
+  }
+
+  body.dark-mode .student-item{
+    background: #1a1a2e !important;
+  }
+
+  body.dark-mode .student-item:hover {
+    background: #222244 !important;
+  }
+
+  body.dark-mode .form-group input:focus,
+  body.dark-mode .form-group select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.2);
+  }
+  
+body.dark-mode .toolbar{
+  background: #1a1a2e;
+}
+
+body.dark-mode .popup{
+  background: #16213e;
+}
+
+body.dark-mode #resultSection {
+  background: #1a1a2e;
+}
+
+body.dark-mode .result-item{
+  background: #16213e;
+}
+
+body.dark-mode .summary-card {
+  color: #eee;
+}

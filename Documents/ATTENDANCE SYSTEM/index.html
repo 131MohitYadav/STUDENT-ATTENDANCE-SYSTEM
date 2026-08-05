@@ -42,6 +42,35 @@
  </div>
 
 
+
+  <!-- CLASS SELECTOR -->
+   <div class="form-group">
+    <label for="classSelector">Select Class:</label>
+    <select id="classSelector" required onchange="showStudentList()">
+        <option value="">--Select a Class</option>
+    </select>
+   </div>
+
+    <!-- STUDENT LIST -->
+
+    <div class="studentListContainer">
+        <h3>Students</h3>
+        <ul id="studentsList" class="student-list">
+
+
+
+        </ul>
+    </div>
+
+    <!-- SUMMARY SECTION -->
+     <div class="summarySection" style="display: none;">
+        <h3>Attendance Summary</h3>
+        <div class="summary-grid">
+            <div class="summary-card total">
+                <div class="number" id="totalStudents">0</div>
+            </div>
+        </div>
+     </div>
     </div>
 
 

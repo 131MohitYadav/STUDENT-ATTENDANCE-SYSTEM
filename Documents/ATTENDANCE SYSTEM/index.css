@@ -153,3 +153,22 @@ body.dark-mode ::-webkit-scrollbar-track {
   transition: 0.3s;
 
 }
+
+/* SECTION HEADER */
+.section-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #eef2f7;
+
+}
+
+.section-header h2{
+  font-size: 26px;
+  color: #2c3e50;
+}
+

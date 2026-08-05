@@ -172,3 +172,25 @@ body.dark-mode ::-webkit-scrollbar-track {
   color: #2c3e50;
 }
 
+body.dark-mode .section-header {
+  border-bottom-color: #2a2a4a;
+}
+
+body.dark-mode .section-header h2{
+  color: #eee;
+}
+
+.academic-badge {
+  background: #3498db;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+
+
+
+
+

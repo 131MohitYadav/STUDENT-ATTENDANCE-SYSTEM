@@ -145,4 +145,11 @@ body.dark-mode ::-webkit-scrollbar-track {
 
 .container{
   min-width: 950px;
+  margin: 30px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(255, 255, 255, 0.08);
+  transition: 0.3s;
+
 }

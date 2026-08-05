@@ -118,3 +118,17 @@ body.dark-mode ::-webkit-scrollbar-track {
   border-radius: 20px;
 }
 
+
+/* THEME TOGGLE */
+
+.theme-toggle {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all  0.3s;
+}
